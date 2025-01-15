@@ -1,5 +1,5 @@
 ---
-name: 'Issue: SaltPearl Network User Story Template template'
+name: SaltPearl Network User Story Template
 about: A guideline for building the website
 title: ''
 labels: ''
