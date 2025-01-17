@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../styles/HomePage.module.css'
+import GetInvolvedDropdown from '../components/GetInvolvedDropdown';
 
 
 const HomePage = () => {
@@ -12,7 +13,7 @@ const HomePage = () => {
                 Join us in reaching out to children and teens, sharing hope and love
                 to everychild.
             </p>
-            <h2>GetInvolvedDrodown </h2>
+            <GetInvolvedDropdown />
         </div>
         <div className={styles.rightbox}>
           <img 

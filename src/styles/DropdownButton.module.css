@@ -1,0 +1,64 @@
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Link button styling */
+  .buttonLink {
+    background-color: #283990;
+    color: white;
+    padding: 10px 20px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for button */
+  .buttonLink:hover {
+    color: #e0dddd;
+    text-decoration: none;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Dropdown menu style */
+  .dropdownMenu {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(253, 251, 251);
+    border: 1px solid rgb(253, 251, 251);
+    border-radius: 5px;
+    padding: 10px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  /* Hover state to show the dropdown menu */
+  .dropdown:hover .dropdownMenu {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Style for each dropdown item */
+  .dropdownMenu a {
+    padding: 10px 10px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for dropdown items */
+  .dropdownMenu a:hover {
+    background-color: rgb(253, 251, 251);
+    text-decoration: underline;
+  }
