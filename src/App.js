@@ -1,7 +1,8 @@
 import NavBar from './components/NavBar';
 import styles from './App.module.css';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
+import HomePage from './pages/HomePage';
 
 function App() {
     return (
@@ -11,7 +12,10 @@ function App() {
             <Switch>
               <Route 
                   exact path="/" 
-                  render = {() => <h1>Home Page</h1>}
+                  render = {() => <HomePage 
+                    message= 'No results found. Adjust the search keyword' 
+                    />
+                  }
               />
                <Route 
                   exact path="/aboutus" 
