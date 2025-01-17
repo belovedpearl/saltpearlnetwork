@@ -53,6 +53,8 @@ The following were used in the buildup of the website.
 
 * [Github](https://github.com) - Used to host the repository, store codes and commit history and also manage the project board.
 
+* [React Icons](https://react-icons.github.io/react-icons/) - Used as the source for different icons used in the design. Version 5.3.0 was used installed and used.
 
+* [React Router](https://www.npmjs.com/package/react-router-dom/v/5.3.0) - Installed to handle client rounting in the application.
 
-* 
+* [Font Awesome](https://fontawesome.com/) - Source of font used throughput the website.
