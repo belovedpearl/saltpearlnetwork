@@ -4,8 +4,8 @@
   .leftbox {
     width: 50%;
     height: 410px;
-    /* background-color: #e0dddd; */
-    background-color: rgb(253, 251, 251);
+    background-color: #e0dddd;
+    /* background-color: rgb(253, 251, 251); */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
