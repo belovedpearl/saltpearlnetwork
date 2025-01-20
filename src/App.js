@@ -3,6 +3,7 @@ import styles from './App.module.css';
 import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Container from 'react-bootstrap/Container';
 import HomePage from './pages/HomePage';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -39,6 +40,7 @@ function App() {
               />
           </Switch>
             </Container>
+            <Footer />
         </div>
     );
 }

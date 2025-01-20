@@ -1,0 +1,30 @@
+.footer {
+    background-color: rgb(253, 251, 251);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .nav {
+    margin-top: 10px;
+  }
+  
+  .link {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  .social {
+  margin-top: 10px;
+  }
+  
