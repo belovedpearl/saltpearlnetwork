@@ -2,6 +2,7 @@ import React from 'react'
 import image from '../assets/sp5.jpg'
 import styles from '../styles/AboutUs.module.css'
 import { Link } from 'react-router-dom';
+import VideoComponent from '../components/VideoComponent';
 
 const team = [
     {
@@ -67,7 +68,7 @@ const AboutUs = () => {
             </p>
         </div>
         <div>
-            <h1>Video Component</h1>
+            <VideoComponent />
         </div>
         <div className={styles.mission}>
             <h2>Our Values</h2>
