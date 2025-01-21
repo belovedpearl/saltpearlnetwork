@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  } 
+
+  .container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .aboutCall{
+    background-color: rgb(253, 251, 251);
+    opacity: 0.8;
+    padding: 10px;
+  }
+  .aboutCall p{
+    word-spacing: 2.5px;
+    font-size: 20px;
+  }
+  .mission{
+    margin: 10px 0;
+    word-spacing: 2.5px;
+    font-size: 20px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    color: white;
+  }
+  .support{
+    margin: 20px;
+    word-spacing: 2.5px;
+    font-size: 20px;
+    color: white;
+  }
+  .take{
+    color: white;
+  }
+  .take:hover{
+    text-decoration: underline;
+    color: rgb(253, 251, 251);
+    font-style: italic;
+  }
+  .teamContainer {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.teamList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

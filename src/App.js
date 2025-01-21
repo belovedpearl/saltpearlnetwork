@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Container from 'react-bootstrap/Container';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
+import AboutUs from './pages/AboutUs';
 
 function App() {
     return (
@@ -20,7 +21,10 @@ function App() {
               />
                <Route 
                   exact path="/aboutus" 
-                  render = {() => <h1>About Page</h1>}  
+                  render = {() => <AboutUs 
+                    message= 'No results found. Adjust the search keyword' 
+                    />  
+                }
               />
                <Route 
                   exact path="/contact" 
