@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import HomePage from './pages/HomePage';
 import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
 
 function App() {
     return (
@@ -28,7 +29,10 @@ function App() {
               />
                <Route 
                   exact path="/contact" 
-                  render = {() => <h1>Contact us Page</h1>} 
+                  render = {() => <ContactUs 
+                    message= 'No results found. Adjust the search keyword' 
+                    />
+                  }
               />
               <Route 
                   exact path="/testi" 

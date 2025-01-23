@@ -10,11 +10,9 @@ const team = [
       image: "/path/to/image1.jpg",
       name: "Adegoke Omisakin",
       position: "Chairman/Visioneer",
-      bio: "Alice oversees all strategic initiatives and ensures the organization meets its goals.",
-    },
-    {
-        image: "/path/to/image2.jpg",
-        name: "Oluwaseun Omisakin",
+      bio: "Adegoke is a lover of the children, fully dedicated to nurturing young hearts in faith, education, and community service. With a strong background in children ministry, he leads with a vision to inspire and support children in biblical ways and compassionate care. Under his leadership, the organization has expanded its outreach, providing spiritual guidance, resources, and mentorship to children in need.",
+    },    
+    {name: "Oluwaseun Omisakin",
         position: "Deputy Chairman",
         bio: "Oluwaseun works with the organisation to continually nurture and empower children through Christian values. With a deep passion for children's welfare and spiritual growth, Oluwaseun plays a key role in overseeing programs, fostering community engagement, and ensuring that the organization's mission aligns with biblical principles.",
     },
@@ -22,7 +20,7 @@ const team = [
         image: "/path/to/image1.jpg",
         name: "Adebimpe Adegbite ",
         position: "General Secretary",
-        bio: "Alex oversees all strategic initiatives and ensures the organization meets its goals.",
+        bio: "Adebimpe oversees all strategic initiatives and ensures the organization meets its goals.",
       },
       {
         image: "/path/to/image1.jpg",
