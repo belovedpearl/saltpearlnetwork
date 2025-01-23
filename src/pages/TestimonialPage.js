@@ -21,7 +21,7 @@ const testimonials = [
     name: 'Sarah J.',
     role: 'Beneficiary',
     quote: 'This charity provided us with food when we had nothing. I’m forever grateful!',
-    image: img1, // To be replaced with images
+    image: img1,
   },
   {
     name: 'Becky A.',
@@ -30,10 +30,10 @@ const testimonials = [
     image: 'https://via.placeholder.com/100', // To be replaced with images
   },
   {
-    name: 'John D.',
+    name: 'Adebusayo Ijimade',
     role: 'Volunteer',
     quote: 'Helping with this organization changed my perspective on giving back and reaching out to people.',
-    image: img2, // To be replaced with images
+    image: img2,
   },
   {
     name: 'Emily R.',

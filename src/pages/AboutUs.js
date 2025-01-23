@@ -20,19 +20,19 @@ const team = [
         image: "/path/to/image1.jpg",
         name: "Adebimpe Adegbite ",
         position: "General Secretary",
-        bio: "Adebimpe oversees all strategic initiatives and ensures the organization meets its goals.",
+        bio: "Adebimpe is dedicated to guiding children in faith and personal growth. With a heart for service, he oversees operations, and ensures the organization's mission aligns with Christian values. Passionate about nurturing young lives, Adebimpe works to inspire and support children in their spiritual journey.",
       },
       {
         image: "/path/to/image1.jpg",
         name: "Adebowale Adejare",
         position: "Treasurer/ Financial Secretary",
-        bio: "Alice oversees all strategic initiatives and ensures the organization meets its goals.",
+        bio: "Adebowale oversees finances with integrity and faith. Committed to stewardship, he ensures transparency, manages resources, and supports programs that nurture children spiritually and physically. With a heart for service, Adebowale helps sustain the organization’s mission through responsible financial planning and management."
       },
       {
         image: "/path/to/image1.jpg",
         name: "Modupeoluwa Sam-Charles",
         position: "Public Relation Officer",
-        bio: "Alice oversees all strategic initiatives and ensures the organization meets its goals.",
+        bio: "Modupeoluwa is dedicated to promoting the mission of nurturing children through Christian values. She manages communications, builds community relationships, and shares impactful stories to inspire support. Passionate about faith-driven advocacy."
       },
   ];
 
