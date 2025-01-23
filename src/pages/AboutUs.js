@@ -3,36 +3,37 @@ import image from '../assets/sp5.jpg'
 import styles from '../styles/AboutUs.module.css'
 import { Link } from 'react-router-dom';
 import VideoComponent from '../components/VideoComponent';
+import TeamMembers from '../components/TeamMembers';
 
 const team = [
     {
       image: "/path/to/image1.jpg",
-      name: "Alice Smith",
-      position: "Director",
+      name: "Adegoke Omisakin",
+      position: "Chairman/Visioneer",
       bio: "Alice oversees all strategic initiatives and ensures the organization meets its goals.",
     },
     {
-      image: "/path/to/image2.jpg",
-      name: "John Doe",
-      position: "Community Outreach Coordinator",
-      bio: "John works closely with our local communities to establish effective support systems.",
+        image: "/path/to/image2.jpg",
+        name: "Oluwaseun Omisakin",
+        position: "Deputy Chairman",
+        bio: "Oluwaseun works with the organisation to continually nurture and empower children through Christian values. With a deep passion for children's welfare and spiritual growth, Oluwaseun plays a key role in overseeing programs, fostering community engagement, and ensuring that the organization's mission aligns with biblical principles.",
     },
     {
         image: "/path/to/image1.jpg",
-        name: "Alex Sooth",
-        position: "Secretary",
+        name: "Adebimpe Adegbite ",
+        position: "General Secretary",
         bio: "Alex oversees all strategic initiatives and ensures the organization meets its goals.",
       },
       {
         image: "/path/to/image1.jpg",
-        name: "Alice Smith",
-        position: "Director",
+        name: "Adebowale Adejare",
+        position: "Treasurer/ Financial Secretary",
         bio: "Alice oversees all strategic initiatives and ensures the organization meets its goals.",
       },
       {
         image: "/path/to/image1.jpg",
-        name: "Alice Smith",
-        position: "Director",
+        name: "Modupeoluwa Sam-Charles",
+        position: "Public Relation Officer",
         bio: "Alice oversees all strategic initiatives and ensures the organization meets its goals.",
       },
   ];
@@ -98,7 +99,13 @@ const AboutUs = () => {
             <h2 className='text-light'>Meet the Team</h2>
             <div className={styles.teamList}>
                 {team.map((member, index) => (
-                <h1>Team Memebers</h1>
+                <TeamMembers
+                key={index}
+                image={member.image}
+                name={member.name}
+                position={member.position}
+                bio={member.bio}
+            />
             ))}
             </div>
         </div>

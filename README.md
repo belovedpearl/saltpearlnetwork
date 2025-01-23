@@ -58,3 +58,9 @@ The following were used in the buildup of the website.
 * [React Router](https://www.npmjs.com/package/react-router-dom/v/5.3.0) - Installed to handle client rounting in the application.
 
 * [Font Awesome](https://fontawesome.com/) - Source of font used throughput the website.
+
+* [Tiny Png](https://tinypng.com/) - Used to reduce overall image size.
+
+* [Image Resizer](https://imageresizer.com/) - Used to achieve small dmension of image used.
+
+* [Watermark Image](https://www.iloveimg.com/watermark-image) - Used to apply watermark to images
