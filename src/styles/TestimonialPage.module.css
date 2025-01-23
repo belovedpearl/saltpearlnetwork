@@ -1,0 +1,76 @@
+.testimonialpage {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    color: rgb(253, 251, 251);
+  }
+  
+  .testimonialheader h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 900;
+  }
+  
+  .testimonialheader p {
+    font-size: 1em;
+    color: white;
+    font-style: italic;
+  }
+  
+  .testimonialcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .testimonial {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonialimg {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .testimonialquote {
+    font-style: italic;
+    font-size: 1em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .testimonialname {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .testimonialrole {
+    color: #777;
+    font-size: 0.9em;
+  }
+  
+  .testimonialfooter {
+    margin-top: 40px;
+    font-size: 1em;
+  }
+  
+  .testimonialfooter a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .testimonialfooter a:hover {
+    text-decoration: underline;
+  }
