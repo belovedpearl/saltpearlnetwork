@@ -56,3 +56,16 @@
     margin: 0;
     word-spacing: 2.5px;
 }
+@media (max-width: 650px) {
+    .teamMember {
+        display: block;
+    }
+    .imageContainer {
+        height: 170px;
+    }
+    .infoContainer {
+        min-height: 150px;
+        max-width: 400px;
+        overflow: hidden;
+    }  
+  }
