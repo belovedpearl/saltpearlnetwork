@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import TestimonialPage from './pages/TestimonialPage';
+import SupportPage from './pages/SupportPage';
 
 function App() {
     return (
@@ -44,7 +45,10 @@ function App() {
               />
                <Route 
                   exact path="/support" 
-                  render = {() => <h1>Support Page</h1>}
+                  render = {() => <SupportPage 
+                    message= 'No results found. Adjust the search keyword' 
+                    />
+                  }
               />
               <Route 
                   exact path="/privacy" 

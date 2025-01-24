@@ -22,7 +22,7 @@ const ContactUs = () => {
         <div className={styles.container}>
             <img 
                     src={image} 
-                    alt="Contact us display image" 
+                    alt="Contact us display profile" 
             />
         </div>
         
