@@ -24,5 +24,18 @@
      object-fit: cover;
  
    }
+   @media (max-width: 350px) {
+    .contactDetails h1{
+      font-size: 30px;
+    }
+    .contactDetails h3{
+      font-size: 25px;
+    }
+    .contactDetails p{
+      word-spacing: 2.0px;
+      font-size: 15px;
+    }
+   
+  }
  
  
