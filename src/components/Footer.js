@@ -16,25 +16,25 @@ const Footer = () => {
                 <nav className={styles.nav}>
                 <Link 
                     to="/aboutus" 
-                    className={styles.link}
+                    className={`${styles.link} ${styles.oplink}`}
                 >
                     About Us
                 </Link>
                 <Link 
                     to="/contact" 
-                    className={styles.link}
+                    className={`${styles.link} ${styles.oplink}`}
                 >
                     Contact
                 </Link>
                 <Link 
                     to="/privacy" 
-                    className={styles.link}
+                    className={`${styles.link} ${styles.oplink}`}
                 >
                     Privacy Policy
                 </Link>
                 <Link 
                     to="/terms" 
-                    className={styles.link}
+                    className={`${styles.link} ${styles.oplink}`}
                 >
                     Terms of Service
                 </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
                         href="https://facebook.com" 
                         target="_blank"
                         rel="noopener noreferrer" 
-                        className={styles.link}
+                        className={`${styles.link} ${styles.solink}`}
                     >
                     <FaFacebook />
                     </a>
@@ -51,7 +51,7 @@ const Footer = () => {
                         href="https://twitter.com" 
                         target="_blank"
                         rel="noopener noreferrer" 
-                        className={styles.link}
+                        className={`${styles.link} ${styles.solink}`}
                     >
                     <FaTwitter />
                     </a>
@@ -59,7 +59,7 @@ const Footer = () => {
                         href="https://instagram.com" 
                         target="_blank" 
                         rel="noopener noreferrer" 
-                        className={styles.link}
+                        className={`${styles.link} ${styles.solink}`}
                     >
                     <FaInstagram />
                     </a>

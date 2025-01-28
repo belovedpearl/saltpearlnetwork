@@ -74,3 +74,16 @@
   .testimonialfooter a:hover {
     text-decoration: underline;
   }
+  @media (max-width: 650px) {
+    .testimonialheader h1 {
+      font-size: 2.0em;
+    }
+  }
+  @media (max-width: 350px) {
+    .testimonialheader h1 {
+      font-size: 1.8em;
+    }
+    .testimonialheader p {
+      font-size: 0.85em;
+    }
+  }

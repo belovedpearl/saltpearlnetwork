@@ -107,7 +107,7 @@ const AboutUs = () => {
             ))}
             </div>
         </div>
-
+        <hr />
         <div className={styles.support}>
             <p>
                 You can 

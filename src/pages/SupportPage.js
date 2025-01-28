@@ -6,15 +6,13 @@ import { Link } from 'react-router-dom';
 
 
 
-const SupportPage = () => {
+  const SupportPage = () => {
 
   const donateRef = useRef(null);
 
   const scrollToDonate = () => {
       donateRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  
+  }; 
 
   return (
     <div>
