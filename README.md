@@ -68,3 +68,5 @@ The following were used in the buildup of the website.
 * [Image Resizer](https://imageresizer.com/) - Used to achieve small dmension of image used.
 
 * [Watermark Image](https://www.iloveimg.com/watermark-image) - Used to apply watermark to images
+
+* [Favicon Generator](https://favicon.io/favicon-generator/) - Used to generate favicon used.
