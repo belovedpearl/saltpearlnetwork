@@ -44,6 +44,10 @@ The following bugs were documented during the build up of the website also inclu
 
        Modifying the start script in the package.json to include the 'NODE_OPTIONS=--openssl-legacy-provider' fixed this. 
 
+
+
+
+
 ---
 ## Frameworks and Web Applications
 

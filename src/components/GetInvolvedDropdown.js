@@ -16,15 +16,23 @@ const GetInvolvedDropdown = () => {
         <div 
             className={styles.dropdownMenu}
         >
-            <Link to="/volunteer">
+            <a 
+                href="https://forms.gle/GOOGLE_FORM_LINK" 
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
                 Volunteer
-            </Link>
+            </a>
             <Link to="/support">
                 Donate
             </Link>
-            <Link to="/patner">
+            <a 
+                href="https://forms.gle/GOOGLE_FORM_LINK" 
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
                 Patner With Us
-            </Link>
+            </a>
         </div>
     </div>
   );
