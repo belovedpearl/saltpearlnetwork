@@ -4,6 +4,8 @@ import styles from '../styles/AboutUs.module.css'
 import { Link } from 'react-router-dom';
 import VideoComponent from '../components/VideoComponent';
 import TeamMembers from '../components/TeamMembers';
+import SEO from '../components/SEO';
+import image3 from '../assets/sp9.jpg'
 
 const team = [
     {
@@ -39,6 +41,11 @@ const team = [
 const AboutUs = () => {
   return (
     <div>
+        <SEO
+            title="Salt-Pearl Network Foundation"
+            description="Building the Young for a better world."
+            image={ image3 }
+        />
         <div className={styles.container}>
             <img 
                     src={image} 

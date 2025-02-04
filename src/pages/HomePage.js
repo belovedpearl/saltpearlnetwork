@@ -6,6 +6,7 @@ import image4 from '../assets/sp4.jpg';
 import image2 from '../assets/sp9.jpg';
 import image3 from '../assets/sp10.jpg';
 import ImageGrid from '../components/ImageGrid';
+import SEO from "../components/SEO";
 
 
 const HomePage = () => {
@@ -27,6 +28,11 @@ const HomePage = () => {
     }, [images.length]);
     return (
         <div>
+            <SEO
+              title="Salt-Pearl Network Foundation"
+              description="Building the Young for a better world."
+              image={ image3 }
+            />
           <div className={styles.container}> 
               <div className={styles.leftbox}>
                   <h1>Building the young for a better world</h1>

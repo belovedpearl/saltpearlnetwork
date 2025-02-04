@@ -3,6 +3,8 @@ import styles from '../styles/SupportPage.module.css'
 import image from '../assets/sp4.jpg'
 import { LuSmilePlus } from "react-icons/lu";
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
+import image3 from '../assets/sp10.jpg'
 
 
 
@@ -16,6 +18,11 @@ import { Link } from 'react-router-dom';
 
   return (
     <div>
+      <SEO
+          title="Salt-Pearl Network Foundation"
+          description="Building the Young for a better world."
+          image={ image3 }
+      />
        <h1 className='text-light mb-4'>Your donation helps change lives</h1>
        <div className={styles.supportmessage}>
           <p>Right now, many children in Nigeria live in poverty and are  
