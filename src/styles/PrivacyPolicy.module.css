@@ -1,0 +1,13 @@
+.mission{
+    margin: 10px 0 50px 0;
+    word-spacing: 2.5px;
+    font-size: 20px;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    color: white;
+    
+}
+.mission h2{
+    text-decoration: underline;
+    
+}

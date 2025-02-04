@@ -8,53 +8,57 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import TestimonialPage from './pages/TestimonialPage';
 import SupportPage from './pages/SupportPage';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
     return (
         <div className={styles.App}>
             <NavBar />
             <Container className={styles.AppHead}>
-            <Switch>
-              <Route 
-                  exact path="/" 
-                  render = {() => <HomePage 
-                    message= 'No results found. Adjust the search keyword' 
-                    />
-                  }
-              />
-               <Route 
-                  exact path="/aboutus" 
-                  render = {() => <AboutUs 
-                    message= 'No results found. Adjust the search keyword' 
-                    />  
-                }
-              />
-               <Route 
-                  exact path="/contact" 
-                  render = {() => <ContactUs 
-                    message= 'No results found. Adjust the search keyword' 
-                    />
-                  }
-              />
-              <Route 
-                  exact path="/testi" 
-                  render = {() => <TestimonialPage 
-                    message= 'No results found. Adjust the search keyword' 
-                    />
-                  }
-              />
-               <Route 
-                  exact path="/support" 
-                  render = {() => <SupportPage 
-                    message= 'No results found. Adjust the search keyword' 
-                    />
-                  }
-              />
-              <Route 
-                  exact path="/privacy" 
-                  render = {() => <h1>Provacy Page</h1>} 
-              />
-          </Switch>
+                  <Switch>
+                      <Route 
+                          exact path="/" 
+                          render = {() => <HomePage 
+                            message= 'No results found. Adjust the search keyword' 
+                            />
+                          }
+                      />
+                      <Route 
+                          exact path="/aboutus" 
+                          render = {() => <AboutUs 
+                            message= 'No results found. Adjust the search keyword' 
+                            />  
+                        }
+                      />
+                      <Route 
+                          exact path="/contact" 
+                          render = {() => <ContactUs 
+                            message= 'No results found. Adjust the search keyword' 
+                            />
+                          }
+                      />
+                      <Route 
+                          exact path="/testi" 
+                          render = {() => <TestimonialPage 
+                            message= 'No results found. Adjust the search keyword' 
+                            />
+                          }
+                      />
+                       <Route 
+                          exact path="/support" 
+                          render = {() => <SupportPage 
+                            message= 'No results found. Adjust the search keyword' 
+                            />
+                          }
+                      />
+                      <Route 
+                          exact path="/privacy" 
+                          render = {() => <PrivacyPolicy 
+                            message= 'No results found. Adjust the search keyword' 
+                            />
+                          }
+                      />
+                </Switch>
             </Container>
             <Footer />
         </div>
