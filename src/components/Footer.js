@@ -33,7 +33,7 @@ const Footer = () => {
                     Privacy Policy
                 </Link>
                 <Link 
-                    to="/terms" 
+                    to="/contact" 
                     className={`${styles.link} ${styles.oplink}`}
                 >
                     Terms of Service

@@ -15,9 +15,10 @@ const ContactUs = () => {
                 call us or send a message using the following details.
             </p>
             <p className={styles.noSelect}>
-            <strong>Phone: </strong> +123 456 7890</p>
+            <strong>Phone: </strong> +234 803 853 0222</p>
             <p className={styles.noSelect}>
-                <strong>Address: </strong>123 Main St, Hometown</p>
+                <strong>Address: </strong>Shop 13, St Peter's Shopping Complex, Iremo,  <br />
+                Ile-Ife, Osun State  <br /> Nigeria</p>
         </div>
         <div className={styles.container}>
             <img 
@@ -29,12 +30,12 @@ const ContactUs = () => {
         <div className={styles.contactDetails}>
             <h3>The Salt-Pearl Network Foundation</h3>
             <p>
-              <strong>Address: </strong>Shop 35, Iremo,<br />
-              Ile-Ife, Osun-State,<br />
+              <strong>Address: </strong>Shop 13, St Peter's Shopping Complex, Iremo,
+              Ile-Ife, Osun State <br />
                Nigeria.
             </p>
             <p>
-                <strong>Email: </strong> info@theSaltPearlNetwork.org.ng
+                <strong>Email: </strong> info@thesaltpearlnetwork.org.ng
             </p>
         </div>
         <div className={stylesb.support}>

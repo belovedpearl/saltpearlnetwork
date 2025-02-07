@@ -59,7 +59,7 @@ const AboutUs = () => {
             </p>
         </div>
         <div className={styles.mission}>
-            <p>
+            <p className={styles.kid}>
                 The Salt-Pearl Network Foundation is a Christian non-profit organisation
                 that provides financial, educational and material 
                 assistance to children and teens thereby promoting a safe and happy childhood. Our desire
