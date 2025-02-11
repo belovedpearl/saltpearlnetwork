@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from '../styles/TestimonialPage.module.css';
-import img1 from '../assets/sp11.jpg'
-import img2 from '../assets/sp12.jpg'
+import img1 from '../assets/sp11.jpg';
+import img2 from '../assets/sp12.jpg';
+import img3 from '../assets/sp13.jpg';
 import SEO from '../components/SEO';
-import image3 from '../assets/sp9.jpg'
+import image3 from '../assets/sp9.jpg';
+
 
 // Testimonial Component
 const Testimonial = ({ image, name, quote, role }) => {
@@ -17,7 +19,6 @@ const Testimonial = ({ image, name, quote, role }) => {
     );
 };
 
-// Sample Testimonial Data
 const testimonials = [
     {
       name: 'Sarah J.',
@@ -28,8 +29,8 @@ const testimonials = [
     {
       name: 'Becky A.',
       role: 'Beneficiary',
-      quote: 'Good to know I am loved and remembered at christmas, my first ever christmas gift !!!',
-      image: 'https://via.placeholder.com/100', // To be replaced with images
+      quote: "Good to know We are loved and remembered at christmas, my very precious christmas gift !!!",
+      image: img3,
     },
     {
       name: 'Adebusayo Ijimade',
@@ -75,12 +76,12 @@ const TestimonialPage = () => {
               ))}
           </div>
 
-          <footer className={styles.testimonialfooter}>
+          <div className={styles.testimonialfooter}>
               <p>Want to make a difference? 
                 <a href="/support">Donate now</a> or <a href="/volunteer">
                 Join us as a volunteer!</a>
               </p>
-          </footer>
+          </div>
         </div>
     );
 };
