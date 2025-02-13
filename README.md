@@ -4,6 +4,16 @@
 [View code here](https://github.com/belovedpearl/saltpearlnetwork)
 
 
+
+* [Features](#features)
+    * [General Project Structure](#general-project-structure)
+    * [Homepage](#homepage)
+    * [About Us](#about-us)
+    * [Contact](#contact)
+    * [Testimonials](#testimonials)
+    * [Support](#support)
+
+
 ---
 # Scope
 
@@ -33,6 +43,79 @@ Sections of development was coordinated using different milestones to aid proper
 Due to the nature of the project and the vision of the organisation to be represented, the idea of the website was first drafted using paper and pencil which was later represented using wireframes creating a view of all pages concieved and the details thought about.
 
 Wireframes are made with Balsamiq.
+
+---
+
+# Features
+
+---
+
+This section discusses the different pages featured on the Salt-Pearl Network Foundation website, the design choices made, dsignigicance of each page and different information that presents on each page.
+
+## General Project Structure
+
+The website is designed to be responsive on all screen size with consideration for super user experience on all pages featured.
+
+---
+
+## Homepage
+
+The homepage consists of the following;
+
+* Salt-Pearl Logo
+* Navigation section
+* 'Get involved' component
+* Footer
+
+### Salt-Pearl Logo
+
+This identifies the brand, it links to the homepage when clicked from any part of the website. This was included to provide users an easy way back home and to improve overall site navigation.
+
+
+### Navigation section
+
+The navigation section is made up of links to;
+
+* Homepage
+* About us Page
+* Contact Page
+* Testimonials page
+* Support Page
+
+This was included to allow users naviagte through the website. To further promote user experience, active pages marked with a bold underline for users to clearly understand what pages they are on. The navigation section is visible acrossthe website irrespesctive of the page the user is on. It displays at the top of every page.
+
+### Get involved component
+
+Part of the homepage display is the 'Get involved component' section which allow users to access different forms that can be completed to become part or take part in the activities of the organisation. An hover ob the button presents 3 options that users can choose from based on what they intend to do.
+
+### Footer
+
+The footer contains content like the year, organisation name, links to different pages across the website and links to different social media handles of the organisation.The footer shows across all pages below every page a user is currently on.
+
+---
+
+## About us
+--- 
+
+This page contains informations about the mission, vision and values of the organisation.It explains in detail what the organisation does and lists targets for each outreach. It includes a video of outreach that has been comopleted, shedding more light on what and how the organisation does its work.
+It also contains a section that features the team member involved in the running of the organisation.  and a short description about them.
+
+---
+
+## Contact
+
+This is included to display different contact information such as address, email and phone number of the organisation.
+
+---
+
+## Testimonials
+
+---
+
+
+
+
+This page features the different testimonies of contricutors to the organisation which includes the beneficiaries, volunteers and donors. It also links to the support page and the volunteer/volunteer section of the website.
 
 ---
 # Bugs
