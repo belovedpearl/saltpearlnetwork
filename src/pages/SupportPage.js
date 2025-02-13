@@ -4,8 +4,8 @@ import image from '../assets/sp4.jpg'
 import { LuSmilePlus } from "react-icons/lu";
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import image3 from '../assets/sp10.jpg'
-
+import image3 from '../assets/sp10.jpg';
+import DonateButton from '../components/DonateButton';
 
 
   const SupportPage = () => {
@@ -15,6 +15,7 @@ import image3 from '../assets/sp10.jpg'
   const scrollToDonate = () => {
       donateRef.current.scrollIntoView({ behavior: 'smooth' });
   }; 
+
 
   return (
     <div>
@@ -36,7 +37,10 @@ import image3 from '../assets/sp10.jpg'
                       ref={donateRef}
               />
           </div>
-          <button className='m-3'>Donate</button>
+
+          <DonateButton />
+          
+
           <p>We're on a mission to support as many children as we can and create a world
             where all children and young people have access to different opportunities. By creating, 
             finding and inventing a wide range of support.

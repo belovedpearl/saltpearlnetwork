@@ -6,6 +6,7 @@ import VideoComponent from '../components/VideoComponent';
 import TeamMembers from '../components/TeamMembers';
 import SEO from '../components/SEO';
 import image3 from '../assets/sp9.jpg'
+import img4 from '../assets/sp14.jpg';
 
 const team = [
     {
@@ -31,10 +32,10 @@ const team = [
         bio: "Adebowale oversees finances with integrity and faith. Committed to stewardship, he ensures transparency, manages resources, and supports programs that nurture children spiritually and physically. With a heart for service, Adebowale helps sustain the organization’s mission through responsible financial planning and management."
       },
       {
-        image: "/path/to/image1.jpg",
+        image: img4,
         name: "Modupeoluwa Sam-Charles",
         position: "Public Relation Officer",
-        bio: "Modupeoluwa is dedicated to promoting the mission of nurturing children through Christian values. She manages communications, builds community relationships, and shares impactful stories to inspire support. Passionate about faith-driven advocacy."
+        bio: "Modupeoluwa is a believer, a legal practitioner and a christian creative dedicated to promoting the mission of nurturing children through Christian values. Passionate about faith-driven advocacy."
       },
   ];
 

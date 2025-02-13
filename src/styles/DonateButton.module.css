@@ -1,0 +1,22 @@
+.donatebutton {
+    background: linear-gradient(to right, #ec4899, #ef4444); /* Highlights Pink to Red Gradient */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .donatebutton:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .donatebutton:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
