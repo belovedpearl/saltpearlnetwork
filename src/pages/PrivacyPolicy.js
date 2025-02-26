@@ -70,38 +70,6 @@ export default PrivacyPolicy
 // How do we collect your information?
 // We may collect information about you directly whenever you interact with us. For example, when you contact Save the Children regarding our activities, register as a supporter, send or receive information, engage with our social media or make a donation to us, you may provide us with your personal information.
 
-// We may also receive information about you when you interact with third parties with whom we work. For example, where you’ve made a donation to us through a third-party website (e.g., Just Giving or Virgin Money Giving) and given them permission to share your information with us. 
-
-// We may supplement what we know about you with information that is available to the public. For example, in order to ensure that our communication with you is relevant and tailored to your background and interests, we may collect information about you from publicly-available sources either directly or through third-party subscription services or service providers. See 'How will we combine and analyse the information we collect about you?' for more detail. We may also carry out research using publicly available information to identify individuals who have an affinity to our cause but with whom we are not already in touch.
-
-// We may collect aggregated or anonymous information when you visit our website or interact with our content.  For example, we may collect information about the services you use and how you use them, like when you watch a video on YouTube, visit our website or view and interact with our ads and content. Please see our Cookie Policy for more detail.
-
-// What information do we collect?
-// The information we collect from you directly or from third parties with whom we work, may include:
-
-// name,
-// address,
-// email address,
-// telephone number,
-// contact preferences,
-// bank account details for setting up a regular direct debit,
-// credit card details for processing credit card payments,
-// employer details for processing a payroll gift,
-// taxpayer status for claiming Gift Aid,
-// date of birth or age to confirm you are over 18,
-// gender, where appropriate (e.g., where registering for an event, such as a race).
-// We do not use cookies to collect this type of information. All online financial transactions will be encrypted using TLS (Transport Layer Security).
-
-// We may also collect and process information about your interactions with us, including details about our contacts with you through email, SMS, post, on the phone or in person (i.e., the date, time, and method of contact), details about donations you make to us, events or activities that you register for or attend and any other support you provide to us.  We may also collect and record any other relevant information you share with us about yourself, including your interests or your affiliations with other charities, community groups, your employer or a Save the Children corporate partner. If you are a minor, we may collect the name and contact details of a parent or guardian and, where appropriate, the name and location of your school. 
-
-// In order to ensure that our communication with you is relevant and tailored to your background and interests, we may supplement what we know about you with information that is available to the public.  This allows us to better understand your interests, preferences, and level of potential engagement and/or donation, so that we can contact you in the most appropriate way and to ensure that we do not send you unwanted communications.  The information we collect and process about you from publicly-available sources may include demographic information associated with your postcode or your address and an estimate of your age.  We may collect this information ourselves or through third-party service providers.  For more information on how we work with service providers, please see ‘How will we disclose the information we have collected to outside parties?’.
-
-// Where we have identified that you may have the capacity or affinity to support Save the Children at a higher level, we may use the information we hold about you to identify connections between you and our existing circle of key supporters.  We may review other information about you that is available to the public through internet searches, social networks, such as LinkedIn, subscription services, news archives or public databases (e.g., Companies House, the electoral, political and property registers), such as information about corporate directorships, shareholdings, published biographic information, employment and earnings, philanthropic interests and networks, charitable giving history and motivations and relevant media coverage, so that we can engage with you in a more personalised way.  
-
-// Do we process ‘sensitive’ personal information?
-// Under data protection law, certain categories of personal information are recognised as sensitive, including health information and information regarding race, religious beliefs, and political opinions (‘sensitive personal data’).  In limited cases, we may collect sensitive personal data about you. We would only collect sensitive personal data if there is a clear reason for doing so, such as where we need this information to ensure that we provide appropriate facilities or support to enable you to participate in an athletic event like a marathon. 
-
-// How do we use your information?
 // We may use your information in a number of ways, including:
 
 // To provide you with information, products or services that you have requested from us or that we feel may be of interest to you;
@@ -159,14 +127,7 @@ export default PrivacyPolicy
 
 // You can also change any of your marketing preferences at any time (including telling us that you don’t want us to contact you for marketing purposes) by:
 
-// Indicating that you do not wish to receive our marketing emails by clicking the ‘unsubscribe’ link in at the end of our marketing emails;
-// Asking us to stop sending you marketing texts by sending us an "opt-out" text message, following the instructions we provide you in the marketing texts you receive from us;
-// Contacting us through our Supporter Care team by email at supportercare@savethechildren.org.uk, or by telephone at 020 7012 6400 (or 00 44 20 7012 6400 if you are calling from outside the UK), or by writing to us at:
-// Supporter Care
-// Save the Children
-// 1 St John's Lane
-// London
-// EC1M 4AR
+
 
 // Contacting your Save the Children contact person;
 // Entering your details on the Fundraising Preference Service (FPS) website and choosing ‘Save the Children’ (Charity Number 213890).  This service is run by the Fundraising Regulator and allows you to stop email, telephone, addressed post, and/or text messages from a selected charity or charities by using the online service at www.fundraisingpreference.org.uk or by calling the telephone helpline on 0300 303 3517.  Once you have made a request through through the FPS, we will ensure that your new preferences take effect within 28 days of your request.  More information about the FPS can be found here.

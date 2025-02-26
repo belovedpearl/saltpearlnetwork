@@ -7,23 +7,27 @@ import TeamMembers from '../components/TeamMembers';
 import SEO from '../components/SEO';
 import image3 from '../assets/sp9.jpg'
 import img4 from '../assets/sp14.jpg';
+import img5 from '../assets/sp15.jpg';
+import img6 from '../assets/sp16.jpg';
+import img7 from '../assets/sp17.jpg';
 
 const team = [
     {
-      image: "/path/to/image1.jpg",
+      image: img6,
       name: "Adegoke Omisakin",
       position: "Chairman/Visioneer",
       bio: "Adegoke is a lover of the children, fully dedicated to nurturing young hearts in faith, education, and community service. With a strong background in children ministry, he leads with a vision to inspire and support children in biblical ways and compassionate care. Under his leadership, the organization has expanded its outreach, providing spiritual guidance, resources, and mentorship to children in need.",
     },    
-    {name: "Oluwaseun Omisakin",
+    {   image: img7,
+        name: "Oluwaseun Omisakin",
         position: "Deputy Chairman",
         bio: "Oluwaseun works with the organisation to continually nurture and empower children through Christian values. With a deep passion for children's welfare and spiritual growth, Oluwaseun plays a key role in overseeing programs, fostering community engagement, and ensuring that the organization's mission aligns with biblical principles.",
     },
     {
-        image: "/path/to/image1.jpg",
+        image: img5,
         name: "Adebimpe Adegbite ",
         position: "General Secretary",
-        bio: "Adebimpe is dedicated to guiding children in faith and personal growth. With a heart for service, he oversees operations, and ensures the organization's mission aligns with Christian values. Passionate about nurturing young lives, Adebimpe works to inspire and support children in their spiritual journey.",
+        bio: "Adebimpe is a linguistic anthropologist, with specialization in family language planning, who is globally read with degrees and research in multiple countries around the world.He is a seasoned teacher passionate about his motto 'serve God, serve humanity' especially in working with children and youths.When he is not doing research or teaching, he enjoys travelling, reading and watching movies.",
       },
       {
         image: "/path/to/image1.jpg",
@@ -34,7 +38,7 @@ const team = [
       {
         image: img4,
         name: "Modupeoluwa Sam-Charles",
-        position: "Public Relation Officer",
+        position: "Public Liaison Officer",
         bio: "Modupeoluwa is a believer, a legal practitioner and a christian creative dedicated to promoting the mission of nurturing children through Christian values. Passionate about faith-driven advocacy."
       },
   ];
@@ -47,7 +51,7 @@ const AboutUs = () => {
             description="Building the Young for a better world."
             image={ image3 }
         />
-        <div className={styles.container}>
+        <div className={styles.container} >
             <img 
                     src={image} 
                     alt="About us display pic" 
@@ -100,7 +104,6 @@ const AboutUs = () => {
                     We're <strong>inclusive, </strong>always aiming no child is left behind.
             </p>
         </div>
-
         <div className={styles.teamContainer}>
             <h2 className='text-light'>Meet the Team</h2>
             <div className={styles.teamList}>
