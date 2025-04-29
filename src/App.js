@@ -50,7 +50,7 @@ function App() {
                             message= 'No results found. Adjust the search keyword' 
                             />
                           }
-                      />
+                       />
                       <Route 
                           exact path="/privacy" 
                           render = {() => <PrivacyPolicy 
