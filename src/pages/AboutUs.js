@@ -10,6 +10,7 @@ import img4 from '../assets/sp14.jpg';
 import img5 from '../assets/sp15.jpg';
 import img6 from '../assets/sp16.jpg';
 import img7 from '../assets/sp17.jpg';
+import img8 from '../assets/sp18.jpg';
 
 const team = [
     {
@@ -30,10 +31,14 @@ const team = [
         bio: "Adebimpe is a linguistic anthropologist, with specialization in family language planning, who is globally read with degrees and research in multiple countries around the world.He is a seasoned teacher passionate about his motto 'serve God, serve humanity' especially in working with children and youths.When he is not doing research or teaching, he enjoys travelling, reading and watching movies.",
       },
       {
-        image: "/path/to/image1.jpg",
+        image: img8,
         name: "Adebowale Adejare",
         position: "Treasurer/ Financial Secretary",
-        bio: "Adebowale oversees finances with integrity and faith. Committed to stewardship, he ensures transparency, manages resources, and supports programs that nurture children spiritually and physically. With a heart for service, Adebowale helps sustain the organization’s mission through responsible financial planning and management."
+        bio: "Adebowale is a passionatre volunteer who enjoys giving back. He believes that small acts of service done consistently can spark big change. He is commiunity-driven and future focused. Adebowale supports initiatives that promotes education, empowerment, and sustainability  "
+        // Adebowale oversees finances with integrity and faith. Committed to stewardship, 
+        // he ensures transparency, manages resources, and supports programs that nurture 
+        // children spiritually and physically. With a heart for service, Adebowale helps 
+        // sustain the organization’s mission through responsible financial planning and management.
       },
       {
         image: img4,
