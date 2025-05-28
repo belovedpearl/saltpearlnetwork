@@ -48,7 +48,7 @@ const Footer = () => {
                     <FaFacebook />
                     </a>
                     <a 
-                        href="https://twitter.com" 
+                        href="https://x.com/thesaltpearl" 
                         target="_blank"
                         rel="noopener noreferrer" 
                         className={`${styles.link} ${styles.solink}`}

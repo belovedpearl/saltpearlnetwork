@@ -1,6 +1,12 @@
 .NavBar {
     background-color:rgb(253, 251, 251);
+    width: 100%;
+    overflow-x: hidden;
   }
+
+div {
+  overflow-x: hidden;
+}
   
 .NavLink {
     color: black !important;
@@ -34,3 +40,5 @@
     font-size: 14px;
    }
 }
+
+

@@ -1,6 +1,5 @@
 import React from 'react'
-import {Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import Container from 'react-bootstrap/Container';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import styles from '../styles/NavBar.module.css'
 import { FaHome } from "react-icons/fa";
 import { IoIosContact } from "react-icons/io";
@@ -9,7 +8,6 @@ import { BsChatQuote } from 'react-icons/bs';
 import { FaDonate } from "react-icons/fa";
 import logo from "../assets/logo.jpg"
 import { NavLink } from 'react-router-dom';
-
 
 const NavBar = () => {
   return (
