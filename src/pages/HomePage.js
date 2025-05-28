@@ -38,7 +38,7 @@ const HomePage = () => {
                   <h1>Building the young for a better world</h1>
                   <p>
                       Join us in reaching out to children and teens, sharing hope and love
-                      to everychild.
+                      to every child.
                   </p>
                   <GetInvolvedDropdown />
               </div>

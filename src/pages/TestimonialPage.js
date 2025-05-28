@@ -78,7 +78,15 @@ const TestimonialPage = () => {
 
           <div className={styles.testimonialfooter}>
               <p>Want to make a difference? 
-                <a href="/support">Donate now</a> or <a href="/volunteer">
+                <a 
+                    href="/support"
+                >
+                  Donate now
+                </a> or <a 
+                    href="https://forms.gle/MKbv6oE38dxhc9Ff8"
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
                 Join us as a volunteer!</a>
               </p>
           </div>
