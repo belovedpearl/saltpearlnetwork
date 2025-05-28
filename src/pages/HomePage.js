@@ -27,7 +27,7 @@ const HomePage = () => {
     return () => clearInterval(interval); // Cleanup on unmount
     }, [images.length]);
     return (
-        <div>
+        <div className={styles.HomeDiv}>
             <SEO
               title="Salt-Pearl Network Foundation"
               description="Building the Young for a better world."

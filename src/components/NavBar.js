@@ -8,11 +8,14 @@ import { BsChatQuote } from 'react-icons/bs';
 import { FaDonate } from "react-icons/fa";
 import logo from "../assets/logo.jpg"
 import { NavLink } from 'react-router-dom';
+import useClickOutside from '../hooks/useClickOutside'
 
 const NavBar = () => {
+    const {expanded, setExpanded, ref} = useClickOutside()
   return (
-    <div>
+    <div className={styles.NavDiv}>
           <Navbar 
+                expanded= {expanded}
                 className={styles.NavBar} 
                 expand="md" 
                 fixed='top'
@@ -37,6 +40,8 @@ const NavBar = () => {
                         </div>
                     </Nav>
                     <Navbar.Toggle 
+                        ref={ref} 
+                        onClick={() => setExpanded(!expanded)} 
                         aria-controls="basic-navbar-nav" 
                         className={styles.ToggleButton}
                     />

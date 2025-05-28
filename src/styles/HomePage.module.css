@@ -1,7 +1,11 @@
 .container {
     display: flex;
   } 
-  .leftbox {
+
+.HomeDiv {
+    overflow-x: hidden;
+}
+.leftbox {
     width: 50%;
     height: 410px;
     background-color: #e0dddd;
