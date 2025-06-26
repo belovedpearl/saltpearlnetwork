@@ -61,7 +61,13 @@
   .dropdownMenu a:hover {
     background-color: rgb(253, 251, 251);
     text-decoration: underline;
-    color: black;
   }
+
+  /* @media (max-width: 780px) {
+   .dropdownMenu {
+    padding: 10px 20px;
+    
+  }
+} */
 
   

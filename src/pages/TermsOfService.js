@@ -5,7 +5,7 @@ const TermsOfService = () => {
   return (
     <div className={styles.terms}>
         <h1 id="date">Terms of Service </h1>
-        <h2>Effective Date: 26/06/2025</h2>
+        <h2 className={styles.date}>Effective Date: 26/06/2025</h2>
         <p>
             Welcome to the website of The Salt-Pearl Network Foundation. These Terms of Service
             govern your access to and use of our website located at 
@@ -163,7 +163,7 @@ const TermsOfService = () => {
         <p>
               <strong>11.  Changes to These Terms:  </strong>
               We may update these Terms periodically. When we do, we will revise the
-               <a href="#date"> "effective date" </a> at the top. Continued use of the 
+               "effective date" at the top. Continued use of the 
                Website after changes are posted constitutes your acceptance of the updated Terms.
         </p>
         <p>
