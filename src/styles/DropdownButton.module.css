@@ -61,4 +61,7 @@
   .dropdownMenu a:hover {
     background-color: rgb(253, 251, 251);
     text-decoration: underline;
+    color: black;
   }
+
+  
