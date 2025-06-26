@@ -9,6 +9,7 @@ import ContactUs from './pages/ContactUs';
 import TestimonialPage from './pages/TestimonialPage';
 import SupportPage from './pages/SupportPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
 
 function App() {
     return (
@@ -54,6 +55,13 @@ function App() {
                       <Route 
                           exact path="/privacy" 
                           render = {() => <PrivacyPolicy 
+                            message= 'No results found. Adjust the search keyword' 
+                            />
+                          }
+                      />
+                      <Route 
+                          exact path="/termsofservice" 
+                          render = {() => <TermsOfService 
                             message= 'No results found. Adjust the search keyword' 
                             />
                           }
