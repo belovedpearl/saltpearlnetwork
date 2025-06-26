@@ -11,7 +11,11 @@ const TeamMembers = ({ image, name, position, bio }) => {
         onMouseLeave={() => setIsHovered(false)}
     >
         <div className={styles.imageContainer}>
-            <img src={image} alt={`${name}`} className={styles.image} />
+            <img 
+                src={image} 
+                alt={`${name}`} 
+                className={styles.image} 
+            />
         </div>
         <div className={styles.infoContainer}>
             {!isHovered ? (

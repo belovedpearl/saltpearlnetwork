@@ -64,6 +64,12 @@
       margin-top: 5px;
     } 
  }
+
+@media (max-width: 450px) {
+  .leftbox h1 {
+    padding-top: 10px;
+  } 
+}
  @media (max-width: 350px) {
   .leftbox h1 {
     margin-top: 10px;

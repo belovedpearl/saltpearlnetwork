@@ -27,7 +27,7 @@ const GetInvolvedDropdown = () => {
                 Donate
             </Link>
             <a 
-                href="https://forms.gle/GOOGLE_FORM_LINK" 
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfToObhAcIHScgB6NeyqmjerwB1YpJhY-OlXVZvThcpQwyZog/viewform" 
                 target="_blank" 
                 rel="noopener noreferrer"
             >
