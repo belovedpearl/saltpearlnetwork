@@ -12,7 +12,7 @@ export default function DonateButton() {
     const handleClick = () => {
         setLoading(true);
         setTimeout(() => {
-        window.open("https://sandbox.flutterwave.com/donate/5uaf6a0sdxpe", "_blank");
+        window.open("https://flutterwave.com/donate/crip4muxrnsr", "_blank");
         setLoading(false);
         }, 1000);
     };
