@@ -40,7 +40,7 @@ const Footer = () => {
                 </Link>
                 <div className={styles.social}>
                     <a 
-                        href="https://facebook.com" 
+                        href="https://www.facebook.com/profile.php?id=61578826037180" 
                         target="_blank"
                         rel="noopener noreferrer" 
                         className={`${styles.link} ${styles.solink}`}
@@ -56,7 +56,7 @@ const Footer = () => {
                     <FaTwitter />
                     </a>
                     <a 
-                        href="https://instagram.com" 
+                        href="https://www.instagram.com/thesaltpearl/" 
                         target="_blank" 
                         rel="noopener noreferrer" 
                         className={`${styles.link} ${styles.solink}`}
