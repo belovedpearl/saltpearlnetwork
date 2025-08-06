@@ -40,7 +40,7 @@ const Footer = () => {
                 </Link>
                 <div className={styles.social}>
                     <a 
-                        href="https://www.facebook.com/profile.php?id=61578826037180" 
+                        href="https://www.facebook.com/thesaltpearl" 
                         target="_blank"
                         rel="noopener noreferrer" 
                         className={`${styles.link} ${styles.solink}`}
