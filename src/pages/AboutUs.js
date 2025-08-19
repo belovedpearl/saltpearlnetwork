@@ -32,7 +32,7 @@ const team = [
       },
       {
         image: img8,
-        name: "Adebowale Adejare",
+        name: "Adebowale Adeniran",
         position: "Treasurer/ Financial Secretary",
         bio: "Adebowale is a passionate volunteer who enjoys giving back. He believes that small acts of service done consistently can spark big change. He is commiunity-driven and future focused. Adebowale supports initiatives that promotes education, empowerment, and sustainability  "
         // Adebowale oversees finances with integrity and faith. Committed to stewardship, 
