@@ -7,7 +7,8 @@ const VideoComponent = () => {
             <iframe 
                 width="50%" 
                 height="300" 
-                src="https://www.youtube.com/embed/your-video-id" 
+                src="https://www.youtube.com/embed/HmRi3ZJ03NQ" 
+                
                 title="YouTube video"
                 className={styles.iframeStyle}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
