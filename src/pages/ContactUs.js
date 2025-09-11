@@ -35,7 +35,7 @@ const ContactUs = () => {
                Nigeria.
             </p>
             <p>
-                <strong>Email: </strong> info@thesaltpearlnetwork.org.ng
+                <strong>Email: </strong> info@thesaltpearlnetwork.org
             </p>
         </div>
         <div className={stylesb.support}>
