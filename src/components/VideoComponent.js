@@ -7,7 +7,7 @@ const VideoComponent = () => {
             <iframe 
                 width="50%" 
                 height="300" 
-                src="https://www.youtube.com/embed/HmRi3ZJ03NQ" 
+                src="https://www.youtube.com/embed/_oK2ELswgjU" 
                 
                 title="YouTube video"
                 className={styles.iframeStyle}
