@@ -10,6 +10,7 @@ import TestimonialPage from './pages/TestimonialPage';
 import SupportPage from './pages/SupportPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermsOfService from './pages/TermsOfService';
+import GetHelp from './pages/GetHelp';
 
 function App() {
     return (
@@ -65,6 +66,10 @@ function App() {
                             message= 'No results found. Adjust the search keyword' 
                             />
                           }
+                      />
+                      <Route 
+                          exact path="/gethelp" 
+                          render = {() => <GetHelp />}
                       />
                 </Switch>
             </Container>

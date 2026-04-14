@@ -1,11 +1,11 @@
 import React from 'react'
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import styles from '../styles/NavBar.module.css'
-import { FaHome } from "react-icons/fa";
+import { FaHome, FaDonate } from "react-icons/fa";
 import { IoIosContact } from "react-icons/io";
 import { HiOutlineInformationCircle } from "react-icons/hi";
 import { BsChatQuote } from 'react-icons/bs';
-import { FaDonate } from "react-icons/fa";
+import { MdHelpOutline } from 'react-icons/md';
 import logo from "../assets/logo.jpg"
 import { NavLink } from 'react-router-dom';
 import useClickOutside from '../hooks/useClickOutside'
@@ -66,7 +66,17 @@ const NavBar = () => {
                                     <HiOutlineInformationCircle className='mr-1' size={30}/>
                                     About Us
                                 </div>
-                            </NavLink>            
+                            </NavLink>
+                            <NavLink 
+                                exact to = "/gethelp" 
+                                className={`${styles.NavLink} mr-2 ${styles.HomeIcon}`} 
+                                activeClassName = {styles.Active} 
+                            >
+                                <div className={`${styles.LinkContainer} ${styles.AddandSign}`}>
+                                    <MdHelpOutline className='mr-1' size={30}/>
+                                    Get Help
+                                </div>
+                            </NavLink>
                         
                         <NavLink 
                                 exact to = "contact" 

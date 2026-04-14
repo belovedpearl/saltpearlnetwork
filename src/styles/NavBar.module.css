@@ -27,9 +27,6 @@
 }
 
 @media (max-width: 768px) {
-   .NavLinkText{
-    font-size: 12px;
-   }
    .HomeIcon{
     margin-left: 2px;
    }
